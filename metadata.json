@@ -1,0 +1,6 @@
+{
+  "name": "Álbum da Copa Canva",
+  "description": "Funil de vendas e template de Álbuns da Copa",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
