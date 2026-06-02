@@ -11,6 +11,7 @@ import WhereToSell from './components/WhereToSell';
 import Offer from './components/Offer';
 import FAQ from './components/FAQ';
 import FloatingNotification from './components/FloatingNotification';
+import FloatingCTA from './components/FloatingCTA';
 import Footer from './components/Footer';
 import { trackPageView } from './utils/tracking';
 
@@ -36,6 +37,7 @@ export default function App() {
       </main>
       <Footer />
       <FloatingNotification />
+      <FloatingCTA />
     </div>
   );
 }
