@@ -45,7 +45,7 @@ export default function FloatingNotification() {
           animate={{ opacity: 1, y: 0, scale: 1 }}
           exit={{ opacity: 0, y: 50, scale: 0.9 }}
           transition={{ type: "spring", stiffness: 400, damping: 25 }}
-          className="fixed bottom-4 left-4 md:bottom-8 md:left-8 bg-white rounded-xl shadow-2xl border border-gray-100 p-3 pr-6 flex items-center gap-4 z-50 pointer-events-none"
+          className="fixed bottom-24 left-4 md:bottom-8 md:left-8 bg-white rounded-xl shadow-2xl border border-gray-100 p-3 pr-6 flex items-center gap-4 z-50 pointer-events-none"
         >
           <div className="bg-[#eefcf2] p-2.5 rounded-full">
             <ShoppingBag className="w-5 h-5 text-[#159146]" />
